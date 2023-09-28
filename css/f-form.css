@@ -1,0 +1,233 @@
+.f-form {
+  max-width: 400px;
+  margin: 24px auto;
+}
+
+.f-form__image {
+  max-width: 350px;
+  margin: 16px auto;
+}
+.f-form__image > img {
+  max-width: 100%;
+}
+
+.f-form__price {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  
+  margin-bottom: 16px;
+}
+.f-price__new {
+  color: #EA3323;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.f-price__new > b {
+  font-size: 45px;
+}
+.f-price__old {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.f-price__old > b {
+  font-size: 25px;
+}
+
+.f-form__box {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.f-box__discount {
+  background: #EA3323;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 50px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-discount__text {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 0;
+}
+
+.f-box__main {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.f-box__main > form {
+  padding: 16px 42px 0 42px;
+}
+.f-box__main > form > label {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  display: block;
+  width: 100%;
+}
+.f-box__main > form > input {
+  height: 53px;
+  width: 100%;
+  max-width: 320px;
+  
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  
+  background: #FFF;
+  
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  -ms-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  -o-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  
+  border: 1px solid transparent;
+  
+  margin: 0 auto 16px auto;
+}
+.f-box__main > form > input:focus {
+  border: 1px solid #FFE500;
+}
+.f-box__main > form > button[type=submit],
+.f-box__main > form > input[type=submit] {
+  background: #FFE500;
+  
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  
+  width: 100%;
+  max-width: 285px;
+  height: 53px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border: none;
+  outline: none;
+  
+  color: #000;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  
+  margin: 8px auto 0 auto;
+}
+.f-box__main > form > button[type=submit]:hover,
+.f-box__main > form > input[type=submit]:hover {
+  background: #dac405;
+  border: none;
+  outline: none;
+}
+
+
+.f-main__remains {
+  width: 100%;
+  text-align: center;
+}
+.f-remains__text {
+  color: #DE1717;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 16px auto 8px auto;
+}
+
+.f-form__socials {
+  width: 162px;
+  height: 43px;
+  
+  margin: 16px auto 0 auto;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-image: url(../images/socials.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: center;
+}
+.f-socials__item {
+
+}
+
+
+@media (max-width: 420px) {
+  .f-box__main > form {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .f-form__image {
+    max-width: 290px;
+  }
+  .f-discount__text {
+    font-size: 24px;
+  }
+  .f-price__new > b {
+    font-size: 35px;
+  }
+  .f-price__new {
+    font-size: 25px;
+  }
+  .f-price__old > b {
+    font-size: 22px;
+  }
+  .f-price__old {
+    font-size: 14px;
+  }
+}
